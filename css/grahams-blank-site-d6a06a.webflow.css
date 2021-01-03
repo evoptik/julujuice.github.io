@@ -1,0 +1,882 @@
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #525252;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #a8a8a8;
+}
+
+.image {
+  position: absolute;
+  left: 25vw;
+  top: 25vh;
+  z-index: 25;
+  display: none;
+  overflow: visible;
+  width: 50%;
+  max-width: none;
+  margin-top: 10vh;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  border-radius: 0px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 0px 0px;
+  background-size: 125px;
+  text-align: center;
+}
+
+.section {
+  display: block;
+  overflow: visible;
+  height: 170vh;
+  max-height: 170vh;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  background-image: url('../images/jungleTall2.jpg');
+  background-position: 0px 0px;
+  background-size: 100vw 170vh;
+  -webkit-transition: background-color 525ms ease;
+  transition: background-color 525ms ease;
+  text-align: left;
+}
+
+.section.home {
+  height: 100vh;
+  max-height: 40vh;
+}
+
+.container {
+  position: relative;
+  z-index: auto;
+  overflow: hidden;
+  height: 170vh;
+  max-height: none;
+  max-width: 100vw;
+  min-height: 0px;
+  clear: none;
+  border: 1px solid transparent;
+  background-color: transparent;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-perspective: 500px;
+  perspective: 500px;
+  -webkit-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+  text-align: center;
+}
+
+.body {
+  display: block;
+}
+
+.container-3 {
+  height: 100vh;
+  min-height: auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 103px;
+  padding-bottom: 79px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.section-4 {
+  overflow: visible;
+  min-height: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: #141414;
+  background-image: url('../images/jungle3.jpg');
+  background-position: 0px 0px;
+  background-size: 100vw;
+  color: #141414;
+}
+
+.heading {
+  position: relative;
+  top: 0px;
+  float: none;
+  clear: none;
+  color: #d6d6d6;
+  text-align: center;
+}
+
+.paragraph {
+  color: #fff;
+  text-align: center;
+}
+
+.soundcloud-div {
+  position: relative;
+  left: 0vw;
+  width: 42vw;
+  margin-top: 5vh;
+  margin-bottom: 0px;
+  margin-left: 4vw;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  text-align: left;
+}
+
+.front-cloud {
+  position: absolute;
+  left: 10vw;
+  top: 75vh;
+  z-index: 30;
+  overflow: hidden;
+  width: 70%;
+  max-width: none;
+  padding-bottom: 0px;
+}
+
+.front-cloud.home {
+  z-index: 35;
+  display: block;
+}
+
+.leftfront-cloud {
+  position: absolute;
+  left: -40vw;
+  top: 50vh;
+  z-index: 29;
+  width: 70%;
+  max-width: none;
+}
+
+.rightfront-cloud {
+  position: absolute;
+  left: 50vw;
+  top: 60vh;
+  z-index: 28;
+  width: 70%;
+  max-width: none;
+}
+
+.cloud4 {
+  position: absolute;
+  left: 12.5vw;
+  top: 57.5vh;
+  z-index: 27;
+  width: 40%;
+  max-width: none;
+}
+
+.backcloud {
+  position: absolute;
+  left: 5vw;
+  top: 45vh;
+  width: 10%;
+  max-width: none;
+}
+
+.sun {
+  position: static;
+  top: 10vh;
+  width: 18%;
+  max-width: none;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sun.home {
+  position: absolute;
+  left: 31vw;
+  top: 4vh;
+  display: inline-block;
+  width: 38vw;
+}
+
+.julujuicetxt {
+  position: absolute;
+  left: 22.5vw;
+  top: 35vh;
+  z-index: 20;
+  width: 57%;
+  max-width: none;
+  border: 1px none #000;
+  border-radius: 0px;
+  opacity: 1;
+}
+
+.julujuicetxt.home {
+  left: 22.5vw;
+  width: 57vw;
+  margin-top: 0px;
+}
+
+.cloud-midback {
+  position: absolute;
+  left: 45vw;
+  top: 47vh;
+  width: 35%;
+}
+
+.cloud-midback.home {
+  left: 40vw;
+}
+
+.backright-cloud {
+  position: absolute;
+  left: 80vw;
+  top: 50vh;
+  width: 25%;
+}
+
+.middle-clouds {
+  position: absolute;
+  left: 15vw;
+  top: 45vh;
+  z-index: 19;
+  width: 25%;
+}
+
+.frontleftcloud {
+  position: absolute;
+  left: -20vw;
+  top: 67.5vh;
+  z-index: 29;
+  width: 70%;
+}
+
+.div-block-3 {
+  position: absolute;
+  left: 35vw;
+  top: 68vh;
+  z-index: 34;
+  width: 30vw;
+  opacity: 1;
+}
+
+.div-block-3:hover {
+  opacity: 1;
+}
+
+.socials {
+  width: 6vw;
+  border: 1px none #000;
+  border-radius: 0px;
+  -webkit-filter: brightness(55%);
+  filter: brightness(55%);
+}
+
+.socials:hover {
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
+}
+
+.socials.insta {
+  width: 8vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
+.instagramtop {
+  width: 8vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
+.instagramtop:hover {
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
+}
+
+.twittertop {
+  width: 4vw;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
+.twittertop:hover {
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
+}
+
+.link-block {
+  cursor: pointer;
+}
+
+.link-block-2 {
+  cursor: pointer;
+}
+
+.link-block-2.instagramtop {
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
+.link-block-2.instagramtop:hover {
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
+}
+
+.middlerightcloud {
+  position: absolute;
+  left: 50vw;
+  top: 52.5vh;
+  display: inline-block;
+  width: 45vw;
+}
+
+.logofilled {
+  position: absolute;
+  left: 31vw;
+  top: 74vh;
+  width: 38vw;
+}
+
+.tabs-container {
+  position: absolute;
+  top: 104vh;
+  right: 4vw;
+  display: block;
+  overflow: visible;
+  width: 42vw;
+  height: auto;
+  max-height: none;
+  max-width: 42vw;
+  margin-right: 0vw;
+  float: none;
+  clear: none;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.content {
+  position: static;
+  top: 106vh;
+  display: block;
+  width: 100vw;
+  margin-top: 109vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.tabscontent {
+  overflow: auto;
+  width: 100%;
+  max-height: 450px;
+  max-width: 100%;
+  min-width: 42vw;
+  margin-top: 0px;
+  padding-top: 10px;
+  background-color: hsla(0, 0%, 100%, 0.6);
+  color: #333;
+  font-size: 14px;
+}
+
+.tabscontent p {
+  padding-right: 18px;
+  padding-left: 18px;
+  text-align: left;
+}
+
+.tabscontent.overview {
+  width: 40vw;
+  margin-top: -53px;
+  margin-left: 1vw;
+  padding-top: 0px;
+  background-color: hsla(0, 0%, 100%, 0);
+  color: #fff;
+  font-size: 20px;
+}
+
+.blurred-bg {
+  position: absolute;
+  left: auto;
+  right: auto;
+  bottom: 0%;
+  display: block;
+  overflow: visible;
+  width: 100%;
+  height: 88%;
+  background-color: hsla(0, 0%, 100%, 0);
+  background-image: url('../images/jungleTall2.jpg');
+  background-position: 100% 100%;
+  background-size: 100vw 170vh;
+  background-attachment: scroll;
+  opacity: 0.6;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.tab-link {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background-color: hsla(0, 0%, 86.7%, 0.4);
+  color: #e2e2e2;
+}
+
+.tab-link:hover {
+  background-color: hsla(0, 0%, 86.7%, 0.45);
+}
+
+.tab-link.w--current {
+  background-color: hsla(0, 0%, 86.7%, 0.75);
+  opacity: 1;
+  color: #333;
+}
+
+.html-embed {
+  max-width: 42vw;
+  opacity: 0.85;
+}
+
+.tab-pane-tab-4 {
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  opacity: 0.85;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.profile {
+  position: static;
+  display: block;
+  width: 40vw;
+  height: auto;
+  max-width: 42vw;
+  margin-left: 1vw;
+  opacity: 1;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.tabs-content {
+  float: none;
+}
+
+.columns {
+  position: static;
+  margin-top: 106vh;
+}
+
+.tab-pane-tab-3 {
+  line-height: 22px;
+}
+
+.text-block {
+  color: #333;
+}
+
+.div-block-4 {
+  position: absolute;
+  left: 30vw;
+  top: 80vh;
+  z-index: 1000;
+  width: 40vw;
+  height: 4vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 4px;
+  background-color: hsla(0, 0%, 100%, 0);
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.text-block-2 {
+  overflow: visible;
+  margin-top: 0vh;
+  margin-bottom: auto;
+  padding-top: 0px;
+  padding-bottom: 6px;
+  border-radius: 2px;
+  background-color: hsla(0, 0%, 100%, 0.6);
+  font-family: 'Skyward rounded', sans-serif;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  white-space: normal;
+}
+
+.link-block-3 {
+  overflow: visible;
+  width: 40vw;
+  height: auto;
+  margin-top: 2.5vh;
+  text-decoration: underline;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.link-block-3.links {
+  margin-top: 1.5vh;
+  color: #333;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 479px) {
+  a {
+    color: #3f3f3f;
+  }
+
+  a:visited {
+    color: #757575;
+  }
+
+  .section {
+    position: static;
+    overflow: visible;
+  }
+
+  .container {
+    overflow: hidden;
+  }
+
+  .section-4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .front-cloud {
+    overflow: visible;
+  }
+
+  .front-cloud.home {
+    top: 60vh;
+  }
+
+  .leftfront-cloud {
+    top: 65vh;
+  }
+
+  .leftfront-cloud.home {
+    top: 50vh;
+  }
+
+  .rightfront-cloud.home {
+    top: 57vh;
+  }
+
+  .frontleftcloud.home {
+    top: 52.5vh;
+  }
+
+  .div-block-3 {
+    top: 50vh;
+  }
+
+  .tabs-container {
+    top: 80vh;
+    overflow: visible;
+    width: 90vw;
+    max-width: 90vw;
+  }
+
+  .content {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .tabscontent {
+    overflow: auto;
+    max-height: 450px;
+  }
+
+  .tabscontent.overview {
+    width: 100%;
+    margin-top: -86px;
+  }
+
+  .blurred-bg {
+    display: none;
+  }
+
+  .tab-link {
+    margin-bottom: 4px;
+  }
+
+  .tab-link.w--current {
+    margin-bottom: 4px;
+  }
+
+  .html-embed {
+    display: none;
+  }
+
+  .profile {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .div-block-4 {
+    top: 60vh;
+    background-color: hsla(0, 0%, 100%, 0);
+  }
+
+  .text-block-2 {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+    background-color: hsla(0, 0%, 100%, 0.6);
+  }
+}
+
+@font-face {
+  font-family: 'Capstone hairline';
+  src: url('../fonts/Capstone-Hairline.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Skyward serifinline';
+  src: url('../fonts/Skyward-SerifInline.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Reverb';
+  src: url('../fonts/Reverb-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Motorcity';
+  src: url('../fonts/MotorCity-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Reverb';
+  src: url('../fonts/Reverb-DemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Skyward rounded';
+  src: url('../fonts/Skyward-Rounded.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Alchemist';
+  src: url('../fonts/Alchemist-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Skyward';
+  src: url('../fonts/Skyward-RoundedItalic.otf') format('opentype'), url('../fonts/Skyward-SansOblique.otf') format('opentype'), url('../fonts/Skyward-RoundedInlineItalic.otf') format('opentype'), url('../fonts/Skyward-SerifOblique.otf') format('opentype'), url('../fonts/Skyward-SansObliqueInline.otf') format('opentype'), url('../fonts/Skyward-SerifObliqueInline.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Capstone demi';
+  src: url('../fonts/Capstone-Demi-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Skyward serif';
+  src: url('../fonts/Skyward-Serif.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Motorcity outline';
+  src: url('../fonts/MotorCity-Outline.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Reverb';
+  src: url('../fonts/Reverb-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Reverb';
+  src: url('../fonts/Reverb-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Mosler vault';
+  src: url('../fonts/Mosler-Vault.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Reverb book';
+  src: url('../fonts/Reverb-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Roundhouse';
+  src: url('../fonts/Roundhouse-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Skyward sans';
+  src: url('../fonts/Skyward-Sans.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Skyward roundedinline';
+  src: url('../fonts/Skyward-RoundedInline.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Skyward sansinline';
+  src: url('../fonts/Skyward-SansInline.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Mosler safe';
+  src: url('../fonts/Mosler-Safe.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Capstone';
+  src: url('../fonts/Capstone-Heavy.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Capstone';
+  src: url('../fonts/Capstone-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Capstone';
+  src: url('../fonts/Capstone-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Capstone ultra';
+  src: url('../fonts/Capstone-Ultra-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Botanist';
+  src: url('../fonts/Botanist-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Mosler strongbox';
+  src: url('../fonts/Mosler-Strongbox.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Mosler fortress';
+  src: url('../fonts/Mosler-Fortress.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: 'Capstone';
+  src: url('../fonts/Capstone-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
